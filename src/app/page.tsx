@@ -1,7 +1,6 @@
 "use client";
 import axios from "axios";
 import { useState } from "react";
-import { db } from "~/server/db";
 
 export default function Home() {
   const [add, setAdd] = useState("");
